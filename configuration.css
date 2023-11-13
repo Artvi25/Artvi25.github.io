@@ -1,0 +1,66 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: orange;
+}
+
+table {
+    background-color: orange;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tr-content {
+    background-color: white;
+}
+
+.container-main  {
+    background-color: olivedrab;
+}
+
+.ul-main {
+    display: flex;
+    justify-content: center;
+}
+
+.li-main {
+  background-color: greenyellow;
+  border: 1px solid white; 
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.li-main:hover {
+    background-color: white;
+    transition: .2s ease-in-out;
+    transition-delay: .2s;
+}
+
+.table-content {
+    justify-content: center;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+}
+
+.container-bottom {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+}
+
+.text-bottom {
+    color: white;
+    text-decoration: none;
+}
